@@ -81,3 +81,6 @@ AND r3.num=r4.num AND r3.company=r4.company
 AND r1.stop=(SELECT id FROM stops WHERE name = 'Craiglockhart')
 AND r4.stop=(SELECT id FROM stops WHERE name = 'Lochend')
 ORDER BY r1.num,s1.name,r4.num
+
+--For more understanding on the above answer check out 
+https://hackernoon.com/learning-self-join-queries-with-sqlzoo-xc163ue7
